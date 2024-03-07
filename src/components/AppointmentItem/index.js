@@ -2,11 +2,11 @@ import './index.css'
 
 const AppointmentItem = props => {
   const {appointmentDetailes, toggleIsStarred} = props
-  const {id, title, date, isstarred} = appointmentDetailes
+  const {id, title, date, isStarred} = appointmentDetailes
   const onClickStar = () => {
     toggleIsStarred(id)
   }
-  const starImageUrl = isstarred
+  const starImageUrl = isStarred
     ? 'https://assets.ccbp.in/frontend/react-js/appointments-app/filled-star-img.png'
     : 'https://assets.ccbp.in/frontend/react-js/appointments-app/star-img.png'
 
