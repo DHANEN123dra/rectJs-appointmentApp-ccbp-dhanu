@@ -1,0 +1,109 @@
+.appointment-app-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appointment-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 800px;
+  padding: 50px;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+.label {
+  font-family: roboto;
+  color: #7e858e;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.input-container {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: 1px #b5b7c4 solid;
+  font-family: roboto;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #131415;
+}
+
+.submit-button {
+  width: 80px;
+  border-radius: 8px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  padding: 10px;
+  border-width: 0px;
+}
+.appointment-heading {
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: bold;
+  color: #171f46;
+  margin-bottom: 24px;
+}
+.border-line {
+  border: 1px #b5b7c4 solid;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+.filtered-list-container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.filtered-list-container-header-heading {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #171f46;
+  margin-bottom: 24px;
+}
+
+.image {
+  width: 400px;
+  height: 300px;
+  margin-left: 36px;
+}
+.active {
+  background-color: #9897f0;
+  border-width: 0px;
+  border-radius: 14px;
+  padding: 4px;
+  height: 30px;
+  width: 90px;
+  font-family: roboto;
+  color: #ffffff;
+  font-size: 14px;
+}
+.in-active {
+  background-color: #ffffff;
+  color: #9897f0;
+  border: 1px #9897f0 solid;
+  border-radius: 14px;
+  padding: 5px;
+  height: 30px;
+  width: 90px;
+  font-family: roboto;
+  font-size: 14px;
+}
+.filtered-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
