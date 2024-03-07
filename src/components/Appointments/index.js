@@ -56,7 +56,7 @@ class Appointments extends Component {
     }))
   }
 
-  filteredApointmentList = () => {
+  getFilteredApointmentList = () => {
     const {appointmentList, isFilterActive} = this.state
     if (isFilterActive) {
       return appointmentList.filter(
@@ -68,7 +68,7 @@ class Appointments extends Component {
 
   render() {
     const {titleInput, dateInput, isFilterActive} = this.state
-    const filteredApointmentList = this.filteredApointmentList()
+    const filteredApointmentList = this.getFilteredApointmentList()
     const starredButtonClass = isFilterActive ? 'active' : 'in-active'
 
     return (
