@@ -13,7 +13,7 @@ const AppointmentItem = props => {
   return (
     <li className="list-container">
       <div className="title-star-container">
-        <h1 className="heading-title">{title}</h1>
+        <p className="heading-title">{title}</p>
         <button
           className="button"
           data-testid="star"
