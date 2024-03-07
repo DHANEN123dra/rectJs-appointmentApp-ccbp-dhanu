@@ -1,8 +1,8 @@
 import './index.css'
 
 const AppointmentItem = props => {
-  const {appointmentDetailes, toggleIsStarred} = props
-  const {id, title, date, isStarred} = appointmentDetailes
+  const { appointmentDetails, toggleIsStarred} = props
+  const {id, title, date, isStarred} =  appointmentDetails
   const onClickStar = () => {
     toggleIsStarred(id)
   }
