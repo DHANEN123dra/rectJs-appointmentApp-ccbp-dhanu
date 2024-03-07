@@ -23,7 +23,7 @@ const AppointmentItem = props => {
           <img className="img-star" src={starImageUrl} alt="star" />
         </button>
       </div>
-      <p className="date-text">{date}</p>
+      <p className="date-text">Date: {date}</p>
     </li>
   )
 }
